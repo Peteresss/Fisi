@@ -1,3 +1,4 @@
+
 /* ¸HERO SEKCE + NAVBAR */
 
 #hero {
@@ -12,12 +13,6 @@
 
 .nadpis h1 {
     font-size: 4rem;
-}
-
-.virtual {
-    /* background-color: #787878 !important; */
-    outline: solid;
-
 }
 
 form {
@@ -37,6 +32,11 @@ form input[type=submit] {
     color: #fff;    
 }
 
+.virtual {
+    background-color: #787878 !important;
+    outline: solid;
+}
+
 nav ul li {
     color: #ddd;
     margin-right: 10px;    
@@ -45,6 +45,7 @@ nav ul li {
 nav ul li:hover {
     text-decoration: underline;
 }
+
 
 /* ¸HISTORIE */
 
@@ -56,6 +57,8 @@ nav ul li:hover {
     font-family: 'Martian Mono', monospace;
 }
 
+
+/* ¸GALERIE */
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
 }
